@@ -102,7 +102,7 @@ nav a:hover{
 .marquee{
     width: 100%;
     overflow: hidden;
-    background: rgb(233, 102, 26);
+    background:  rgb(150, 9, 9);
     color: rgba(255, 255, 255, 1);
     padding: 20px 0;
 }
