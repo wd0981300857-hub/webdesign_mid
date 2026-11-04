@@ -8,8 +8,19 @@ body{
 
     font-family: "Roboto", sans-serif;
 
-    background-color: rgb(0, 10, 46)
+    background-color: rgb(0, 10, 46);
+    cursor: url("../1031/cursor.png") 8 8, auto;
 }
+
+a, button, .card,nav a {
+    cursor: url("../1031/cursor.png") 8 8, pointer;
+}
+
+a:hover, button:hover, .card:hover,nav a:hover {
+    cursor: url("../1031/cursor_hover.png") 8 8, pointer;
+}
+
+
 
 ::selection{
     background: rgba(87, 117, 144, 1);
@@ -160,7 +171,7 @@ section > a {
 .card{
 	flex: 0 0 calc((100% - 10px *3)/4);
 	text-align:center;
-	cursor:pointer;
+	
 }
 
 .card img{
